@@ -1,13 +1,39 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.red{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px;
+}
+.green{
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px;
+}
+.semaforo{
+    align-content: center;
+    background-color: black;
+    display: inline-block;
+  padding: 15px;
+  margin: 30px;
+}
+.select{
+    margin: 30px;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+.brillo {
+margin: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 4px #747DE8;
+  animation: glow 1.5s linear infinite alternate;
+}
