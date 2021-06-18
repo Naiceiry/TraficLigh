@@ -1,33 +1,39 @@
 @import "~bootstrap/scss/bootstrap.scss";
-#red{
+.red{
     background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px;
 }
-#yellow{
+.yellow{
     background-color: yellow;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px;
 }
-#green{
+.green{
     background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px;
 }
-#semaforo{
+.semaforo{
+    align-content: center;
     background-color: black;
     display: inline-block;
-    padding: 15px;
+  padding: 15px;
+  margin: 30px;
 }
-#select{
+.select{
+    margin: 30px;
+    align-content: center;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
-    background-color: black;
+    padding: 15px;
 }
-brillo {
-  margin: 30px;
+.brillo {
+margin: 30px;
   border-radius: 50%;
   box-shadow: 0px 0px 9px 4px #747DE8;
   animation: glow 1.5s linear infinite alternate;
-}
-
-@keyframes glow{
-  to {
-    box-shadow: 0px 0px 30px 20px #535FED;
-  }
 }
